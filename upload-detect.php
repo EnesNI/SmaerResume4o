@@ -328,7 +328,7 @@ $user_name = $_SESSION['user_name'] ?? 'John Doe';
                     </div>
                     <div class="user-details">
                         <span class="user-name"><?php echo htmlspecialchars($user_name); ?></span>
-                        <span class="user-email">john@example.com</span>
+                        <span class="user-email"></span>
                     </div>
                 </div>
             </div>
