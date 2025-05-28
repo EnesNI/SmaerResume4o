@@ -296,56 +296,7 @@ $user_email = $current_user['email'] ?? 'user@example.com';
                     </div>
                 </section>
 
-                <!-- Performance Overview -->
-                <section class="performance-section">
-                    <div class="performance-card">
-                        <h3>Performance Overview</h3>
-                        <div class="performance-grid">
-                            <div class="performance-item">
-                                <h4>This Week</h4>
-                                <div class="performance-stats">
-                                    <div class="performance-stat">
-                                        <span class="stat-number">3</span>
-                                        <span class="stat-label">Resumes</span>
-                                    </div>
-                                    <div class="performance-stat">
-                                        <span class="stat-number">7</span>
-                                        <span class="stat-label">Analyses</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="performance-item">
-                                <h4>This Month</h4>
-                                <div class="performance-stats">
-                                    <div class="performance-stat">
-                                        <span class="stat-number"><?php echo $total_resumes; ?></span>
-                                        <span class="stat-label">Resumes</span>
-                                    </div>
-                                    <div class="performance-stat">
-                                        <span class="stat-number"><?php echo $total_analyses; ?></span>
-                                        <span class="stat-label">Analyses</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="performance-item">
-                                <h4>All Time</h4>
-                                <div class="performance-stats">
-                                    <div class="performance-stat">
-                                        <span class="stat-number">45</span>
-                                        <span class="stat-label">Resumes</span>
-                                    </div>
-                                    <div class="performance-stat">
-                                        <span class="stat-number">156</span>
-                                        <span class="stat-label">Analyses</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </main>
-    </div>
+               
 
     <script src="dashboard.js"></script>
 </body>

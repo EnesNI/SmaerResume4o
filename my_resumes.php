@@ -281,7 +281,7 @@ $user_name = $_SESSION['user_name'] ?? 'John Doe';
                     <h1>My Resumes</h1>
                 </div>
                 <div class="header-right">
-                    <a href="resume_form.html" class="btn btn-primary">
+                    <a href="templates.php" class="btn btn-primary">
                         <i class="fas fa-plus"></i>
                         Create New Resume
                     </a>
@@ -317,7 +317,7 @@ $user_name = $_SESSION['user_name'] ?? 'John Doe';
                         <i class="fas fa-file-alt"></i>
                         <h3>No resumes yet</h3>
                         <p>Create your first resume to get started!</p>
-                        <a href="resume_form.html" class="btn btn-primary" style="margin-top: 1rem;">
+                        <a href="templates.php" class="btn btn-primary" style="margin-top: 1rem;">
                             <i class="fas fa-plus"></i>
                             Create Resume
                         </a>
